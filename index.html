@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!-- css link -->
+  <link rel="stylesheet" href="main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+
+<body>
+  <div class="notification-container">
+    <!-- Banner of the notification -->
+    <div class="header">
+      <h1>Notifications</h1>
+      <p class="notify-number">3</p>
+      <p class="read">Mark all as read</p>
+    </div>
+    <!-- notifications section -->
+    <div class="notifications">
+      <div class="single-notification unread">
+        <img src="./assets/images/avatar-mark-webber.webp" alt="" class="profile-icon">
+
+        <div class="mgs">
+          <p class="msg-details"> <span class="name">Mark Webber</span> reacted to your recent post <span class="post">My first tournament today!</span> <span class="unread-icon"></span>
+          <br><span class="time">1m ago</span></p>
+        </div>
+      </div>
+      <div class="single-notification unread">
+        <img src="./assets/images/avatar-angela-gray.webp" alt="" class="profile-icon">
+        <div class="mgs">
+          <p class="msg-details"> <span class="name"> Angela Gray</span> followed you <span class="unread-icon"></span> <br> <span class="time">5m ago</span></p>
+        </div>
+      </div>
+      <div class="single-notification unread">
+        <img src="./assets/images/avatar-jacob-thompson.webp" alt="" class="profile-icon">
+        <div class="mgs">
+          <p class="msg-details"> <span class="name">Jacob Thompson</span> has joined your group <span class="club-name">Chess Club</span> <span class="unread-icon"></span>
+          <br><span class=" time">1 day ago</span></p>
+        </div>
+      </div>
+      <div class="single-notification">
+        <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="" class="profile-icon">
+        <div class="mgs">
+          <p class="msg-details"> <span class="name">Rizky Hasanuddin</span> sent you a private message <br>
+          <span class="time">5 days ago</span></p>
+          <p class="expanded-msg">
+            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+            I'm already having lots of fun and improving my game.
+          </p>
+        </div>
+        
+      </div>
+      <div class="single-notification">
+        <img src="./assets/images/avatar-kimberly-smith.webp" alt="" class="profile-icon">
+        <div class="mgs">
+          <p class="msg-details"> <span class="name">Kimberly Smith</span> commented on your picture
+          <br><span class="time">2 weeks ago</span></p>
+          
+        </div>
+        <img src="./assets/images/image-chess.webp" alt="" class="picture">
+      </div>
+
+      <div class="single-notification">
+        <img src="./assets/images/avatar-nathan-peterson.webp" alt="" class="profile-icon">
+        <div class="mgs">
+          <p class="msg-details" > <span class="name">Nathan Peterson</span> reacted to your recent post <span class="post">5 end-game strategies to increase your win rate </span>
+          <br> <span class="time">2 weeks ago</span></p>
+        </div>
+      </div>
+
+
+      <div class="single-notification">
+        <img src="./assets/images/avatar-anna-kim.webp" alt="" class="profile-icon">
+        <div class="mgs">
+          <p class="msg-details"> <span class="name">Anna Kim</span> left the group <span class="club-name">Chess Club</span>
+          <br> <span class="time">2 weeks ago</span></p>
+        </div>
+
+      </div>
+
+
+    </div> 
+  </div>
+  
+</body>
+</html>
