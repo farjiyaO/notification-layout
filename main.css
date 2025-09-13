@@ -35,10 +35,12 @@
     color: var(--color-white);
     padding : 5px 10px;
     border-radius: 4px;
+    cursor: pointer;
     
 }
 .read{
     color: var(--color-Gray-500);
+    cursor: pointer;
 }
 .single-notification{
     padding: 8px ;
@@ -82,17 +84,8 @@
     font-weight: bold;
     margin-right: 3px;
     color: black;
+    cursor: pointer;
 }
-/* 
-.notifications{
-    margin-top:5%;
-   
-}*/
-
-
-
-
-
 
 .mgs{
 margin-left: 8px;
@@ -101,6 +94,13 @@ margin-left: 8px;
 .club-name{
     color: var(--color-blue);
     font-weight: bold;
+    cursor: pointer;
+}
+.name:hover,
+.club-name:hover,
+.post:hover{
+    cursor: pointer;
+    color: var(--color-blue);
 }
 .post{
     color: var(--color-Navy-600);
@@ -112,4 +112,10 @@ margin-left: 8px;
     margin: 8px 0;
     border-radius: 4px;
     color: var(--color-Gray-500);
+    cursor: pointer;
+}
+.expanded-msg:hover{
+    background-color: var(--color-blue-100);
+    color: var(--color-Navy-950);
+    font-weight: 600;
 }
